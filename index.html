@@ -1,96 +1,170 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="C:\Users\55859\OneDrive\Área de Trabalho\Nova pasta\css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Game Mania | Home </title>
 </head>
-<body>
-    <header>
-        <nav class="menu">
-            <img class="logo" src="logo.png" alt="">
 
-            <div id="pesq">
-              <input type="text">
-              <img src="imagens/header/lupa.png" alt="lupa" id="lupa">
-          </div>
-                <ul>
-                    <a class="linkMenu" href="">HOME</a>
-                    <a class="linkMenu" href="">JOGOS</a>
-                    <a class="linkMenu" href="">NEWS</a>
-                    <a class="linkMenu" href="">EXPLORAR</a>
-                    <a class="linkMenu" href="">HARDWARE</a>
-                    <a class="linkMenu" href="">COMPRAS</a>
-                    <a class="linkMenu" href="">CONTATOS</a>
-                    <a class="linkMenu" href="">LOGIN</a>
-                </ul>
-        </nav>
+<body>
+
+    <header>
+
+        <!--- TOPBAR -->
+        <div class="container-grid">
+
+            <!--- LOGO -->
+            <a href="">
+                <img src="logo1.png" alt="LOGO DO SITE" style="width:200px; height: 80px;">
+            </a>
+
+
+            <!--- LINKS DE TOPBAR -->
+            <nav class="menu">
+                <a href="" title="SAC"><img src="sac.svg"></a>
+                <a href="" title="FAVORITOS"><img src="favoritos.png"></a>
+                <a href="" title="CARRINHO DE COMPRAS"><img src="carrinhodecompras.png"></a>
+            </nav>
+        </div>
+
     </header>
 
-    <div class="section-banner-home">
-        <div class="container-fluid">
-            <div class="row m-0">
-                <div class="col-12 col-md-6">
-                    <figure>
-                       <img src="banner1.jpg" class="img-fluid" alt="banner-home">
-                    </figure>
+
+    <div class="submenu">
+        <div class="dropdown">
+            <button class="dropbtn">DEPARTAMENTOS</button>
+            <div id="menu" class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <a href="">DESTAQUES</a>
+        <a href="">CADASTRE-SE</a>
+        <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+
+    </div>
+
+    <div class="banner">
+    </div>
+
+    <div class="container-destaques">
+
+        <h2>PRODUTOS EM DESTAQUE</h2>
+
+        <div class="destaques">
+
+            <div class="quadro-produto">
+                <div class="produto">
+                    <img src="controle.png" alt="Controle Gamer">
+                    <a href="">
+                        <h3>Controle Sem Fio PS5</h3>
+                    </a>
+                    <p><b>R$395,91</b> <small>12x R$32,99 SEM JUROS</small></p>
                 </div>
-                <div class="col-12 col-nd-6">
-                    <section class="texto-banner d-none d-nd-block">  
-                        <h1> VENHA JOGAR TODOS OS TIPOS DE <br>
-                            JOGO ONLINE!</br></h1>
-                        <P class="texto-banner d-none d-nd-block"> </P>
-                        <a href=""></a>
-                    </section>
+            </div>
+
+            <div class="quadro-produto ">
+                <div class="produto ">
+                    <img src="headset.png" alt="Headset Gamer ">
+                    <a href="">
+                        <h3>Headset Gamer HyperX</h3>
+                    </a>
+                    <p><b>R$259,00</b> <small>12x R$25,48 SEM JUROS</small></p>
+                </div>
+            </div>
+
+            <div class="quadro-produto ">
+                <div class="produto ">
+                    <img src="notebook.png" alt="Notebook Gamer ">
+                    <a href="">
+                        <h3>Notebook Gamer Acer</h3>
+                    </a>
+                    <p><b>R$5.899,90</b> <small>12x R$517,53 SEM JUROS</small></p>
                 </div>
             </div>
         </div>
-    </div>
 
-  
-                <div class="destaque">
-                    <div class="container">
-                        <div class="row d-flex justify-content-center">
-                            <section class="col-12">
-                              <h2> JOGOS MAIS ACESSADOS </h2>
-                              <P></P>
-                            </section>
-                        <div class="col-6 col-md-2 pr-0">
-                            <figure>
-                              <a href="jogos.html"><img src="IMG1.jpg" alt="galeria" width="100%"></a>
-                              <figcaption> JOGOS </figcaption>
-                            </figure>
-                        </div>
+        <div class="container2 ">
 
-                        <div class="col-6 col-md-2 pr-0">
-                          <figure>
-                            <a href="jogos.html"><img src="IMG2.jpeg" alt="galeria" width="100%"></a>
-                            <figcaption> JOGOS </figcaption>
-                          </figure>
-                      </div>
+            <section class="propagandas ">
+                <div class="ads container-grid ">
+                    <a href=" "><img src="desconto.png"></a>
+                    <a href=" "><img src="cartao.png"></a>
+                </div>
+            </section>
 
-                      <div class="col-6 col-md-2 pr-0">
-                        <figure>
-                          <a href="jogos.html"><img src="IMG3.jpg" alt="galeria" width="100%"></a>
-                          <figcaption> JOGOS </figcaption>
-                        </figure>
+            <section class="container-grid ">
+                <div class="departamentos ">
+                    <h2> POR DEPARTAMENTOS </h2>
+                    <a href=" "><img src="HARDWARE.png "></a>
+                    <a href=" "><img src="PERIFERICOS.png "></a>
+                    <a href=" "><img src="GAMES.png "></a>
+                    <a href=" "><img src="CADEIRAS.png "></a>
+                    <a href=" "><img src="COMPUTADORES.png "></a>
+                    <a href=" "><img src="TVS.png "></a>
+
+                </div>
+            </section>
+
+            <section class="container-grid ">
+                <div class="marcas ">
+                    <h2> POR MARCAS </h2>
+                    <a href=" "><img src="CORSAIR.png "></a>
+                    <a href=" "><img src="ASUS.png "></a>
+                    <a href=" "><img src="EVSA.png "></a>
+                    <a href=" "><img src="LOGITETCH.png "></a>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <div class="rodape container-grid">
+                <div class="links-footer">
+
+                    <div class="links">
+                        <h5>SIGA-NOS:</h5>
+                        <ul>
+                            <li><a href="">INSTAGRAM</a></li>
+                            <li><a href="">FACEBOOK</a></li>
+                            <li><a href="">TWITCH</a></li>
+                            <li><a href="">TWITTER</a></li>
+                            <li><a href="">YOUTUBE</a></li>
+                        </ul>
                     </div>
 
-                    <div class="col-6 col-md-2 pr-0">
-                      <figure>
-                        <a href="jogos.html"><img src="IMG4.webp" alt="galeria" width="100%"></a>
-                        <figcaption> JOGOS </figcaption>
-                      </figure>
-                  </div>
-
-                  <div class="col-6 col-md-2 pr-0">
-                    <figure>
-                      <a href="jogos.html"><img src="IMG5.jpg" alt="galeria" width="100%"></a>
-                      <figcaption> JOGOS </figcaption>
-                    </figure>
+                    <div class="links">
+                        <h5>PÁGINAS:</h5>
+                        <ul>
+                            <li><a href="">SOBRE A EMPRESA</a></li>
+                            <li><a href="">CENTRAL DE ATENDIMENTO</a></li>
+                            <li><a href="">TERMOS DE USO</a></li>
+                            <li><a href="">POLÍTICA DE PRIVACIDADE</a></li>
+                            <li><a href="">COMPRA SEGURA</a></li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
-            </div>    
+
+                <img class="logo-rodape" src="logo1.png">
+
+                <div class="disponivel">
+                    <a href=""><img src="APPLE STORE.png"></a>
+                    <a href=""><img src="PLAYSTORE.png"></a>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+
 </body>
+
 </html>
