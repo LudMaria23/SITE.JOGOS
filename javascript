@@ -1,19 +1,18 @@
-    <script>
-           let email = document.getElementById("campo-email");
+
+let email = document.getElementById("campo-email");
 
 function enviarEmail() {
  let.emailDigitado = email.value;
  console.log(emailDigitado)
 }
 
-
- let listPromocoes = [{
+let listPromocoes = [{
         titulo: "Inserir título aqui",
-      descricao: "Descrição aqui"
+        descricao: "Descrição aqui"
      },
     {
        titulo: "Inserir título aqui 2",
-      descricao: "Inserir descrição aqui 2"
+       descricao: "Inserir descrição aqui 2"
     },
 
     {
@@ -50,4 +49,3 @@ function closeNav() {
  document.getElementById("myNav").style.width = "0%";
 }
 
-    </script>
