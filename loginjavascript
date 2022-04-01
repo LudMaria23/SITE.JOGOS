@@ -1,3 +1,4 @@
+
 let inputs = document.getElementsByClassName('input-form');
 for (let input of inputs) {
   input.addEventListener("blur", function() {
@@ -8,3 +9,24 @@ for (let input of inputs) {
     }
   });
 }
+
+function validar() {
+    var email = document.getElementById("email");
+    var senha = document.getElementById("senha");
+
+        if (email.value == ""){
+            alert("E-MAIL NÃO INFORMADO!");
+
+            email.focus();
+            return;
+        }
+        
+        if (senha.value == "") {
+            alert("SENHA NÃO INFORMADA!")
+
+            senha.focus();
+            return;
+        }
+        alert("LOGIN EFETUADO COM SUCESSO!");
+}
+
